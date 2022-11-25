@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bac41544-7cfe-4e64-bd53-f23538b8a479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{891f86f7-fd7c-4bf2-ab66-7bd533203245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{aa1bc258-645c-4004-80c4-ddaab6af62da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{88ab7cf8-9550-4ca5-b60d-62d079c621e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cube.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="cube.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default1.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default1.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default2.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="default2.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="framebuffer.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="framebuffer.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="light.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shadowCubeMap.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shadowCubeMap.grap">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shadowCubeMap.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shadowMap.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shadowMap.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
